@@ -1,4 +1,4 @@
-recipeFlexBox{
+.recipeFlexBox{
     display: flex;
     justify-content: center;
 }
@@ -14,10 +14,9 @@ main {
     text-align: center;
 }
 
-ul, li {
+.ulist, .recipe {
     display:inline;
     text-align: center;
-    ;
 }
 
 .recipe {
@@ -25,14 +24,14 @@ ul, li {
     text-align: center;
 }
 
-a {
-    color: black;
+.rec-but{
+    color: white;
     text-decoration: none;
 
     border-radius: 10px;
-    border: 5px solid white;
+    border: 5px solid #EFA282;
     box-shadow: 1px 1.5px;
-    padding: 2px;
+    padding: 5px;
     font-family: roboto;
 
     font-weight: normal;
@@ -40,14 +39,55 @@ a {
     
 
 
-    background-color: white;
+    background-color: #EFA282;
+    margin: 5px;
 }
 
 /* Image*/
 .shef {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 body {
-    background-color: #f3e5ab;
+    background-color: #fdfaf1;
+}
+
+
+/* For Recipes folder */
+
+.all-desk {
+    text-align: left;
+}
+
+
+.content {
+    justify-content: center;
+    text-align: left;
+    list-style-position: inside;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.header1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.home-but {
+    color: white;
+    text-decoration: none;
+
+    border-radius: 10px;
+    border: 5px solid #EFA282;
+    box-shadow: 1px 1.5px;
+    padding: 5px;
+    font-family: roboto;
+
+    font-weight: normal;
+    font-size: 20px;
+    
+
+    background-color: #EFA282;
+    margin-top: 100px;
+    
 }
